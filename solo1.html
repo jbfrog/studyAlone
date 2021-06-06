@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+      let count = 0;
+      let characterNameA = "Fizz";
+      let characterNameB = "Buzz";
+      let characterNameC = "FizzBuzz";
+      while(count<100){
+        count += 1
+        if(count % 5 == 0 && count %3 ==0){
+          console.log(characterNameC)
+        }else if (count%3 == 0){
+          console.log(characterNameA);
+        }else if(count % 5 == 0){
+          console.log(characterNameB)
+        }else{
+          console.log(count);
+        }
+      }
+    </script>
+  </body>
+</html>
